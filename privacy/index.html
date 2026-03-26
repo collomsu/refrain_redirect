@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Refrain</title>
+    <meta name="description" content="Privacy Policy for Refrain, the writing app for songwriters and poets.">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Serif+Display&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/refrain_icon.png">
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'refrain-primary': '#1A3A5C',
+                        'refrain-accent': '#C4873A',
+                        'refrain-bg': '#FAFAF7',
+                        'refrain-text': '#141E2D',
+                        'refrain-text-mid': '#3A5070',
+                        'refrain-text-light': '#6B84A0',
+                        'refrain-dark-bg': '#0D1520',
+                        'refrain-dark-card': '#162030',
+                        'refrain-dark-surface': '#1E2D40',
+                        'refrain-dark-text': '#E8EEF5',
+                        'refrain-dark-text-light': '#7A9AB8',
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'sans-serif'],
+                        'display': ['DM Serif Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body
+    class="bg-refrain-bg dark:bg-refrain-dark-bg text-refrain-text dark:text-refrain-dark-text antialiased transition-colors duration-300">
+
+    <!-- Nav -->
+    <header
+        class="border-b border-gray-200 dark:border-refrain-dark-surface bg-refrain-bg/80 dark:bg-refrain-dark-bg/80 backdrop-blur-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="/" class="flex items-center gap-3">
+                <img src="../assets/refrain_icon.png" alt="Refrain" class="w-8 h-8 rounded-lg">
+                <span class="font-display text-xl">Refrain</span>
+            </a>
+            <div class="relative flex items-center">
+                <input type="checkbox" id="theme-toggle-checkbox" class="hidden peer">
+                <div
+                    class="relative w-12 h-6 rounded-full bg-yellow-200 peer-checked:bg-blue-900 transition-colors duration-300">
+                </div>
+                <label for="theme-toggle-checkbox" class="absolute inset-0 cursor-pointer"></label>
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="absolute left-1 top-1/2 -translate-y-1/2 h-4 w-4 text-amber-500 transition-opacity duration-300 peer-checked:opacity-0 pointer-events-none"
+                    fill="currentColor" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="5" />
+                    <path
+                        d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="absolute right-1 top-1/2 -translate-y-1/2 h-4 w-4 text-blue-300 opacity-0 transition-opacity duration-300 peer-checked:opacity-100 pointer-events-none"
+                    fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M21 12.79A9 9 0 0111.21 3a7 7 0 000 14A9 9 0 0021 12.79z" />
+                </svg>
+                <div class="absolute top-0.5 left-0.5 w-5 h-5 bg-white rounded-full shadow
+                    transition-transform duration-300 peer-checked:translate-x-6 pointer-events-none"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-6 py-16 max-w-3xl">
+        <h1 class="font-display text-3xl md:text-4xl mb-2">Privacy Policy</h1>
+        <p class="text-refrain-text-light dark:text-refrain-dark-text-light mb-10">Last updated: March 25, 2026</p>
+
+        <div class="prose-content space-y-8 text-refrain-text-mid dark:text-refrain-dark-text-light leading-relaxed">
+
+            <section>
+                <h2 class="font-semibold text-lg text-refrain-text dark:text-refrain-dark-text mb-3">1. Introduction
+                </h2>
+                <p>Refrain ("the App") is an iOS application developed and operated by Sullivan Collomb, a sole
+                    proprietor based in Lyon, France ("we", "us", or "our").</p>
+                <p class="mt-3">This Privacy Policy explains how we collect, use, and protect your information when you
+                    use Refrain. We are committed to protecting your privacy and handling your data with transparency
+                    and respect.</p>
+                <p class="mt-3">By downloading or using Refrain, you agree to the practices described in this Privacy
+                    Policy.</p>
+            </section>
+
+            <section>
+                <h2 class="font-semibold text-lg text-refrain-text dark:text-refrain-dark-text mb-3">2. Information We
+                    Collect</h2>
+
+                <h3 class="font-medium text-refrain-text dark:text-refrain-dark-text mt-4 mb-2">2.1 Information You
+                    Provide</h3>
+                <p><strong class="text-refrain-text dark:text-refrain-dark-text">Your creative content</strong><br>
+                    All songs, poems, sections, and text you write in Refrain are stored <strong>locally on your device
+                        only</strong>, using a local database (Hive). We do not have access to your creative content. It
+                    never leaves your device unless you choose to share it yourself.</p>
+                <p class="mt-3"><strong class="text-refrain-text dark:text-refrain-dark-text">Your
+                        preferences</strong><br>
+                    App settings such as your chosen theme (light/dark), editor font, and display preferences are stored
+                    locally on your device only.</p>
+
+                <h3 class="font-medium text-refrain-text dark:text-refrain-dark-text mt-4 mb-2">2.2 Information
+                    Collected Automatically</h3>
+                <p><strong class="text-refrain-text dark:text-refrain-dark-text">Purchase and subscription
+                        information</strong><br>
+                    If you purchase a Refrain Pro subscription or lifetime access, your transaction is processed by
+                    Apple through the App Store. We use RevenueCat, a third-party service, to manage and verify your
+                    purchases. RevenueCat may collect:</p>
+                <ul class="list-disc ml-6 mt-2 space-y-1">
+                    <li>A randomized user identifier</li>
+                    <li>Your purchase history within the App</li>
+                    <li>Your subscription status</li>
+                </ul>
+                <p class="mt-3">During your 14-day free trial period, no payment information is collected. RevenueCat
+                    records the trial start date and status to manage the transition to a paid subscription.</p>
+                <p class="mt-3">RevenueCat does not collect your name, email address, or payment details. Those are
+                    handled exclusively by Apple.</p>
+
+                <p class="mt-3"><strong class="text-refrain-text dark:text-refrain-dark-text">Rhyme search
+                        queries</strong><br>
+                    When you use the rhyme finder feature, your search queries are sent to the Datamuse API
+                    (api.datamuse.com) to retrieve rhyming words. These queries contain only the word or phrase you are
+                    looking for &mdash; never your full lyrics or any personal information.</p>
+
+                <h3 class="font-medium text-refrain-text dark:text-refrain-dark-text mt-4 mb-2">2.3 Information We Do
+                    NOT Collect</h3>
+                <p>We do not collect:</p>
+                <ul class="list-disc ml-6 mt-2 space-y-1">
+                    <li>Your name or email address</li>
+                    <li>Your location</li>
+                    <li>Device identifiers or advertising IDs</li>
+                    <li>Usage analytics or behavioral data</li>
+                    <li>Crash reports</li>
+                    <li>Any content you write in the App</li>
+                </ul>
+                <p class="mt-3"><strong class="text-refrain-text dark:text-refrain-dark-text">Advertising Identifier
+                        (IDFA)</strong><br>
+                    We do not use the Advertising Identifier (IDFA). RevenueCat may use the Identifier for Vendor
+                    (IDFV), a non-advertising identifier that cannot be used to track you across apps from other
+                    developers.</p>
+            </section>
+
+            <section>
+                <h2 class="font-semibold text-lg text-refrain-text dark:text-refrain-dark-text mb-3">3. How We Use Your
+                    Information</h2>
+                <p>We use the limited information collected solely to:</p>
+                <ul class="list-disc ml-6 mt-2 space-y-1">
+                    <li>Verify and restore your Refrain Pro purchases across devices</li>
+                    <li>Provide the rhyme finder feature via the Datamuse API</li>
+                    <li>Maintain and improve the App</li>
+                </ul>
+                <p class="mt-3">We do not use your information for advertising, profiling, or any commercial purpose
+                    beyond operating the App.</p>
+            </section>
+
+            <section>
+                <h2 class="font-semibold text-lg text-refrain-text dark:text-refrain-dark-text mb-3">4. Third-Party
+                    Services</h2>
+                <p>Refrain uses the following third-party services:</p>
+
+                <div class="mt-4 space-y-4">
+                    <div
+                        class="bg-white dark:bg-refrain-dark-card border border-gray-100 dark:border-refrain-dark-surface rounded-xl p-4">
+                        <h4 class="font-medium text-refrain-text dark:text-refrain-dark-text">RevenueCat</h4>
+                        <p class="text-sm mt-1">Used to manage In-App Purchases and subscriptions.</p>
+                        <ul class="text-sm mt-2 space-y-0.5">
+                            <li><strong>Data collected:</strong> randomized user ID, purchase history, subscription
+                                status</li>
+                            <li><strong>Purpose:</strong> purchase verification and restoration</li>
+                            <li><strong>Privacy Policy:</strong> <a href="https://www.revenuecat.com/privacy"
+                                    class="text-refrain-primary dark:text-refrain-accent underline" target="_blank"
+                                    rel="noopener noreferrer">revenuecat.com/privacy</a></li>
+                        </ul>
+                    </div>
+                    <div
+                        class="bg-white dark:bg-refrain-dark-card border border-gray-100 dark:border-refrain-dark-surface rounded-xl p-4">
+                        <h4 class="font-medium text-refrain-text dark:text-refrain-dark-text">Datamuse API</h4>
+                        <p class="text-sm mt-1">Used to power the rhyme finder feature.</p>
+                        <ul class="text-sm mt-2 space-y-0.5">
+                            <li><strong>Data collected:</strong> word or phrase queries (no personal data)</li>
+                            <li><strong>Purpose:</strong> returning rhyming word suggestions</li>
+                            <li><strong>Privacy Policy:</strong> <a href="https://www.datamuse.com/api/"
+                                    class="text-refrain-primary dark:text-refrain-accent underline" target="_blank"
+                                    rel="noopener noreferrer">datamuse.com/api</a></li>
+                        </ul>
+                    </div>
+                    <div
+                        class="bg-white dark:bg-refrain-dark-card border border-gray-100 dark:border-refrain-dark-surface rounded-xl p-4">
+                        <h4 class="font-medium text-refrain-text dark:text-refrain-dark-text">Apple App Store</h4>
+                        <p class="text-sm mt-1">All payments and transactions are processed by Apple.</p>
+                        <ul class="text-sm mt-2">
+                            <li><strong>Privacy Policy:</strong> <a href="https://www.apple.com/legal/privacy/"
+                                    class="text-refrain-primary dark:text-refrain-accent underline" target="_blank"
+                                    rel="noopener noreferrer">apple.com/legal/privacy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="font-semibold text-lg text-refrain-text dark:text-refrain-dark-text mb-3">5. Data Storage and
+                    Security</h2>
+                <p>All your creative content (songs, poems, notes) is stored exclusively on your device using a local
+                    database. We have no access to this data and it is never transmitted to our servers.</p>
+                <p class="mt-3">We do not operate any servers or cloud storage for user content.</p>
+                <p class="mt-3">Your purchase information is stored securely by RevenueCat on their servers, protected
+                    by industry-standard security measures.</p>
+            </section>
+
+            <section>
+                <h2 class="font-semibold text-lg text-refrain-text dark:text-refrain-dark-text mb-3">6. Your Rights
+                    (GDPR)</h2>
+                <p>If you are located in the European Union or European Economic Area, you have the following rights
+                    under the General Data Protection Regulation (GDPR):</p>
+                <ul class="list-disc ml-6 mt-2 space-y-1">
+                    <li><strong>Right of access:</strong> you can request information about the data we hold about you
+                    </li>
+                    <li><strong>Right to erasure:</strong> you can request deletion of your data</li>
+                    <li><strong>Right to portability:</strong> you can request a copy of your data</li>
+                    <li><strong>Right to object:</strong> you can object to the processing of your data</li>
+                    <li><strong>Right to rectification:</strong> you can request correction of inaccurate data</li>
+                </ul>
+                <p class="mt-3">Since we do not collect personal data directly, most of these rights apply to data held
+                    by RevenueCat. You can contact RevenueCat directly at <a href="mailto:privacy@revenuecat.com"
+                        class="text-refrain-primary dark:text-refrain-accent underline">privacy@revenuecat.com</a> to
+                    exercise these rights regarding your purchase data.</p>
+                <p class="mt-3">For any privacy request related to Refrain, contact us at the address below.</p>
+            </section>
+
+            <section>
+                <h2 class="font-semibold text-lg text-refrain-text dark:text-refrain-dark-text mb-3">7. Data Retention
+                </h2>
+                <p><strong class="text-refrain-text dark:text-refrain-dark-text">Local data:</strong> your creative
+                    content remains on your device until you delete the App or the content manually.</p>
+                <p class="mt-3"><strong class="text-refrain-text dark:text-refrain-dark-text">Purchase data:</strong>
+                    RevenueCat retains purchase records as long as necessary to manage your subscription and comply with
+                    legal obligations.</p>
+                <p class="mt-3"><strong class="text-refrain-text dark:text-refrain-dark-text">Rhyme queries:</strong>
+                    Datamuse does not retain query data beyond the immediate response.</p>
+            </section>
+
+            <section>
+                <h2 class="font-semibold text-lg text-refrain-text dark:text-refrain-dark-text mb-3">8. Children's
+                    Privacy</h2>
+                <p>Refrain is not directed at children under the age of 13. We do not knowingly collect personal
+                    information from children under 13. If you believe a child has provided personal information through
+                    the App, please contact us and we will take steps to delete such information.</p>
+            </section>
+
+            <section>
+                <h2 class="font-semibold text-lg text-refrain-text dark:text-refrain-dark-text mb-3">9. Changes to This
+                    Privacy Policy</h2>
+                <p>We may update this Privacy Policy from time to time. We will notify you of any significant changes by
+                    updating the "Last updated" date at the top of this document. We encourage you to review this
+                    Privacy Policy periodically.</p>
+                <p class="mt-3">Continued use of the App after any changes constitutes your acceptance of the updated
+                    Privacy Policy.</p>
+            </section>
+
+            <section>
+                <h2 class="font-semibold text-lg text-refrain-text dark:text-refrain-dark-text mb-3">10. Contact Us</h2>
+                <p>If you have any questions, concerns, or requests regarding this Privacy Policy, please contact us:
+                </p>
+                <div
+                    class="bg-white dark:bg-refrain-dark-card border border-gray-100 dark:border-refrain-dark-surface rounded-xl p-4 mt-3">
+                    <p class="font-medium text-refrain-text dark:text-refrain-dark-text">Sullivan Collomb</p>
+                    <p>12 Rue de la Part-Dieu<br>69003 Lyon, France</p>
+                    <p class="mt-2"><a href="mailto:strawb.pro@gmail.com"
+                            class="text-refrain-primary dark:text-refrain-accent underline">strawb.pro@gmail.com</a></p>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-200 dark:border-refrain-dark-surface mt-16">
+        <div class="container mx-auto px-6 py-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                <div class="flex items-center gap-6">
+                    <a href="/"
+                        class="text-refrain-text-light dark:text-refrain-dark-text-light hover:text-refrain-primary dark:hover:text-refrain-dark-text text-sm transition">Refrain</a>
+                    <a href="/terms"
+                        class="text-refrain-text-light dark:text-refrain-dark-text-light hover:text-refrain-primary dark:hover:text-refrain-dark-text text-sm transition">Terms
+                        of Use</a>
+                </div>
+                <p class="text-refrain-text-light dark:text-refrain-dark-text-light text-sm">&copy; 2026 Sullivan
+                    Collomb</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const themeToggle = document.getElementById('theme-toggle-checkbox');
+            const applyTheme = (isDark) => {
+                if (isDark) { document.documentElement.classList.add('dark'); themeToggle.checked = true; }
+                else { document.documentElement.classList.remove('dark'); themeToggle.checked = false; }
+            };
+            const savedTheme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            applyTheme(savedTheme === 'dark' || (savedTheme === null && prefersDark));
+            themeToggle.addEventListener('change', () => {
+                const isDark = themeToggle.checked;
+                applyTheme(isDark);
+                localStorage.setItem('theme', isDark ? 'dark' : 'light');
+            });
+        });
+    </script>
+</body>
+
+</html>
